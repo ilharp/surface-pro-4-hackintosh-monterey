@@ -4,6 +4,12 @@
 
 - 型号：Surface Pro 4 8G 256G
 
+- CPU：Intel Core i5-6300U 2.5GHz
+
+- 显卡：Intel HD Graphics 520 2GB
+
+- 声卡：Realtek ALC3269（布局 3）
+
 - 买了 USB 无线网卡：COMFAST CF-811AC
 
 ## 配置
