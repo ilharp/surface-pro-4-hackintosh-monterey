@@ -1,5 +1,7 @@
 # surface-pro-4-hackintosh-big-sur
 
+Surface Pro 4 + Big Sur，无触摸屏/WiFi/蓝牙/摄像头，其他功能完整
+
 ## 硬件
 
 - 型号：Surface Pro 4 8G 256G
@@ -19,6 +21,8 @@
 ## 修改的内容
 
 - OpenCore 内核升级到了 [v0.7.3](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.3)，更新了全部内置包，更新了配置文件结构
+
+- 内置 OpenCore Shell/Resources
 
 - 开启了 `AppleXcpmCfgLock`，不过这个开不开都没关系
 
