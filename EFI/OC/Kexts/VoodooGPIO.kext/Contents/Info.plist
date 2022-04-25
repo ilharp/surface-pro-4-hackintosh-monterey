@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19B88</string>
+	<string>21A559</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,42 +17,31 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.2.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11C29</string>
+	<string>13A233</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.3</string>
 	<key>DTSDKBuild</key>
-	<string>16E185</string>
+	<string>20E214</string>
 	<key>DTSDKName</key>
-	<string>macosx10.12</string>
+	<string>macosx11.3</string>
 	<key>DTXcode</key>
-	<string>1130</string>
+	<string>1300</string>
 	<key>DTXcodeBuild</key>
-	<string>11C29</string>
+	<string>13A233</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>VoodooGPIOCannonLakeH</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>org.coolstar.VoodooGPIO</string>
-			<key>IOClass</key>
-			<string>VoodooGPIOCannonLakeH</string>
-			<key>IONameMatch</key>
-			<array>
-				<string>INT3450</string>
-			</array>
-			<key>IOProviderClass</key>
-			<string>IOService</string>
-		</dict>
 		<key>VoodooGPIOCannonLakeLP</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -66,15 +55,15 @@
 			<key>IOProviderClass</key>
 			<string>IOService</string>
 		</dict>
-		<key>VoodooGPIOSunrisePointH</key>
+		<key>VoodooGPIOIceLakeLP</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>org.coolstar.VoodooGPIO</string>
 			<key>IOClass</key>
-			<string>VoodooGPIOSunrisePointH</string>
+			<string>VoodooGPIOIceLakeLP</string>
 			<key>IONameMatch</key>
 			<array>
-				<string>INT345D</string>
+				<string>INT3455</string>
 			</array>
 			<key>IOProviderClass</key>
 			<string>IOService</string>
@@ -98,7 +87,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2017 CoolStar. All rights reserved.</string>
 	<key>OSBundleCompatibleVersion</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOACPIFamily</key>
