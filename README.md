@@ -24,9 +24,11 @@ Surface Pro 4 + Big Sur，无触摸屏/WiFi/蓝牙/摄像头，其他功能完�
 
 - 内置 OpenCore Shell/Resources
 
-- 开启了 `AppleXcpmCfgLock`，不过这个开不开都没关系
+- 开启 `AppleXcpmCfgLock`
 
-- 开启了 `SetupVirtualMap`（重要）
+- 开启 `SetupVirtualMap`（重要）
+
+- 关闭 `XhciPortLimit`（重要）
 
 - 修改了部分 OS 启动参数，修改 OS 启动 GUI 为中文
 
