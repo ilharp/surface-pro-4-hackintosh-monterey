@@ -4,27 +4,39 @@ Surface Pro 4 + Big Sur，无触摸屏/WiFi/蓝牙/摄像头，其他功能完�
 
 ## 硬件
 
-- 型号：Surface Pro 4 8G 256G
+组件|描述
+-|-
+型号|Surface Pro 4 8G 256G
+CPU|Intel Core i5-6300U 2.5GHz
+显卡|Intel HD Graphics 520 2GB
+声卡|Realtek ALC3269（布局 3）
+USB 无线网卡|COMFAST CF-811AC（自购）
 
-- CPU：Intel Core i5-6300U 2.5GHz
+## 目标对应机型
 
-- 显卡：Intel HD Graphics 520 2GB
+官方名称|MacBook Pro（13 英寸，2016 年，两个雷雳 3 端口）
+-|-
+标识符|MacBookPro13,1
+部件号|MLL42xx/A、MLUQ2xx/A
 
-- 声卡：Realtek ALC3269（布局 3）
+## 来源 & 鸣谢
 
-- 买了 USB 无线网卡：COMFAST CF-811AC
-
-## 配置
-
-主要使用的项目：[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh) 和 [chris1111/Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
+组件|来源于
+-|-
+[macOS](https://www.apple.com.cn/macos)|[Apple](https://www.apple.com.cn)
+[OpenCore](https://github.com/acidanthera/OpenCorePkg)|[acidanthera](https://github.com/acidanthera)
+ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
+键盘 & 触摸板等|[VoodooI2C (基础)](https://github.com/VoodooI2C)，[Xiashangning/BigSurface](https://github.com/Xiashangning/BigSurface)
+音频|[AppleALC](https://github.com/acidanthera/AppleALC) + 布局 3
+无线网卡驱动|[chris1111/Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
 
 ## 修改的内容
 
-- OpenCore 内核升级到了 [v0.7.3](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.3)，更新了全部内置包，更新了配置文件结构
+- OpenCore 内核升级到了 [v0.8.0](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.0)
+
+- 优化了 ACPI
 
 - 内置 OpenCore Shell/Resources
-
-- 开启 `AppleXcpmCfgLock`
 
 - 开启 `SetupVirtualMap`（重要）
 
@@ -40,19 +52,17 @@ Surface Pro 4 + Big Sur，无触摸屏/WiFi/蓝牙/摄像头，其他功能完�
 
 1. 插上 U 盘，安装 macOS
 
+1. Reset NVRAM（如果某天突然发现有任何功能变得不正常了，在尝试修复之前记得先 Reset NVRAM）
+
 1. 开始愉快的水果之旅
 
-## 鸣谢
+## 注意事项
 
-- Apple 的 macOS
+- 在触摸板设置中关闭 `Force click and haptic feedback`，否则使用起来会有些奇怪（Voodoo 触摸板驱动会把触摸板按下当作 `Force Click`）
 
-- [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
+## 下载 & 更新记录
 
-- kext 和 aml 作者
-
-- [bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
-
-- [chris1111/Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
+请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-big-sur/releases)
 
 ## LICENSE
 
