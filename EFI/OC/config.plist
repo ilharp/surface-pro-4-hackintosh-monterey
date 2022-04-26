@@ -284,7 +284,7 @@
 				<key>Comment</key>
 				<string>CpuTscSync</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CpuTscSync</string>
 				<key>MaxKernel</key>
