@@ -338,7 +338,7 @@
 				<key>Comment</key>
 				<string>Used for Ambient Light Sensor</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCLightSensor</string>
 				<key>MaxKernel</key>
@@ -390,7 +390,7 @@
 				<key>BundlePath</key>
 				<string>GenericUSBXHCI.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Enable USB</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -408,7 +408,7 @@
 				<key>BundlePath</key>
 				<string>RtWlanU1827.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Enable USB Wi-Fi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -426,7 +426,7 @@
 				<key>BundlePath</key>
 				<string>RtWlanU.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Enable USB Wi-Fi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -444,7 +444,7 @@
 				<key>BundlePath</key>
 				<string>ACPIBatteryManager.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Enable Bettery Management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -462,7 +462,7 @@
 				<key>BundlePath</key>
 				<string>NullEthernet.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Adjust Ethernet</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -480,7 +480,7 @@
 				<key>BundlePath</key>
 				<string>VoodooInput.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Voodoo Input</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -498,7 +498,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CServices.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Voodoo I2C Services</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -516,7 +516,7 @@
 				<key>BundlePath</key>
 				<string>VoodooGPIO.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Voodoo GPIO</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -534,7 +534,7 @@
 				<key>BundlePath</key>
 				<string>VoodooSerial.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Voodoo Serial</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -552,7 +552,7 @@
 				<key>BundlePath</key>
 				<string>BigSurface.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>The BigSurface Kext, Used to Enhance Keyboard and Touchpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
