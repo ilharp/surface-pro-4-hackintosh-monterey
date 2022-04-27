@@ -1,6 +1,22 @@
-# surface-pro-4-hackintosh-big-sur
+# surface-pro-4-hackintosh-monterey
 
-Surface Pro 4 + Big Sur，无触摸屏/WiFi/蓝牙/摄像头，其他功能完整
+Surface Pro 4 + macOS 12 Monterey，无触摸屏/WiFi/蓝牙/摄像头，其他功能完整
+
+## ⭐ 现已支持 Monterey ⭐
+
+经过数天的尝试，本项目现已支持直升 macOS 12 Monterey。
+
+测试的过程非常复杂，也修改了非常多的参数，因此不在此处叙述了，如果有任何问题和想法可以开 issue 交流。
+
+<img width="1000" alt="Monterey" src="https://user-images.githubusercontent.com/20179549/165629179-52eb9fea-d871-4d90-922a-ab8a95ee318d.png">
+
+## 兼容性
+
+版本历史和更新记录请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-big-sur/releases)。
+
+v3 是最后一个在 Big Sur 上经过测试的版本。后续版本理论上仍支持 Big Sur，但我已无法再进行测试。
+
+v4 开始同时支持 Big Sur 和 Monterey。
 
 ## 硬件
 
@@ -30,20 +46,6 @@ ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 音频|[AppleALC](https://github.com/acidanthera/AppleALC) + 布局 3
 无线网卡驱动|[chris1111/Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
 
-## 修改的内容
-
-- OpenCore 内核升级到了 [v0.8.0](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.0)
-
-- 优化了 ACPI
-
-- 内置 OpenCore Shell/Resources
-
-- 开启 `SetupVirtualMap`（重要）
-
-- 关闭 `XhciPortLimit`（重要）
-
-- 修改了部分 OS 启动参数，修改 OS 启动 GUI 为中文
-
 ## 食用
 
 1. 把 EFI 文件夹粘贴到 U 盘任何一个空分区的根目录里（注意 U 盘文件系统要能够被 Surface UEFI 识别）
@@ -58,7 +60,15 @@ ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 ## 注意事项
 
-- 在触摸板设置中关闭 `Force click and haptic feedback`，否则使用起来会有些奇怪（Voodoo 触摸板驱动会把触摸板按下当作 `Force Click`）
+### 触摸板
+
+在触摸板设置中关闭 `Force click and haptic feedback`，否则使用起来会有些奇怪（Voodoo 触摸板驱动会把触摸板按下当作 `Force Click`）
+
+### 更新
+
+默认配置禁用了所有更新（使用 Apple 提供的更新极有可能损坏系统）。若要恢复更新，你需要重新启用 SIP。参考：[Disabling SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#disabling-sip)
+
+**注意：非常不推荐通过系统更新直接升级系统。推荐手动下载系统安装程序进行安装升级。**
 
 ## 下载 & 更新记录
 
