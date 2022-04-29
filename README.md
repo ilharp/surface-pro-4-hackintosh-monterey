@@ -70,6 +70,8 @@ ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 **注意：非常不推荐通过系统更新直接升级系统。推荐手动下载系统安装程序进行安装升级。**
 
+禁用更新同时会禁用 App Store 内的应用更新。请自行权衡利弊。
+
 ## 下载 & 更新记录
 
 请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-big-sur/releases)
