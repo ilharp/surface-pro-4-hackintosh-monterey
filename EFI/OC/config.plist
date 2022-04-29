@@ -185,6 +185,8 @@
 				<data>FlkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
@@ -897,7 +899,7 @@
 				<key>SystemAudioVolume</key>
 				<data>AA==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 darkwake=1 -wegnoegpu dart=0 -cdfon lilucpu=9</string>
+				<string>keepsyms=1 lilucpu=9</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -970,7 +972,7 @@
 			<key>MLB</key>
 			<string>C02739300GUHMHK1H</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1537</integer>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>ROM</key>
