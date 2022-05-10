@@ -72,6 +72,10 @@ ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 禁用更新同时会禁用 App Store 内的应用更新。请自行权衡利弊。
 
+### DSDT
+
+现 repo 里的 DSDT 主要是为了电源管理功能而存在的，如果发现与 DSDT 相关的问题（如 [#3](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/issues/3)）可自行打新的 DSDT 并替换。
+
 ## 下载 & 更新记录
 
 请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-big-sur/releases)
