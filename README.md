@@ -76,6 +76,10 @@ ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 现 repo 里的 DSDT 主要是为了电源管理功能而存在的，如果发现与 DSDT 相关的问题（如 [#3](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/issues/3)）可自行打新的 DSDT 并替换。
 
+### 成功安装，但在 OOBE 时重启
+
+可以参考食用 [fix-tsc](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/fix-tsc) 分支。[这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/dda837c4bf170b88a8168fc2adc656aacd90aea9)、[这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/0997f86718c328fdee8e2e03658a87d74dab9ed8) 和 [这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/c8741d380ee2ea9ac10d098bebe657a99f6a44a6) 版本都可以试一试。更多信息请参考 [#5](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/issues/5)。
+
 ## 下载 & 更新记录
 
 请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-big-sur/releases)
