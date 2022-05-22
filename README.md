@@ -78,7 +78,7 @@ ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 ### 成功安装，但在 OOBE 时重启
 
-可以参考食用 [fix-tsc](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/fix-tsc) 分支。[这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/dda837c4bf170b88a8168fc2adc656aacd90aea9)、[这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/0997f86718c328fdee8e2e03658a87d74dab9ed8) 和 [这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/c8741d380ee2ea9ac10d098bebe657a99f6a44a6) 版本都可以试一试。更多信息请参考 [#5](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/issues/5)。
+可以参考食用 [fix-tsc](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/fix-tsc) 分支。[这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/dda837c4bf170b88a8168fc2adc656aacd90aea9)、[这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/0997f86718c328fdee8e2e03658a87d74dab9ed8) 和 [这个](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/c8741d380ee2ea9ac10d098bebe657a99f6a44a6) 版本都可以试一试。也可尝试 [打了 TSC 补丁的 v4](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/3675685f6eb66e0f0a5f7cefb8c8c5c31c48f8f2) 和 [打了 TSC 补丁的 v3](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/tree/e4bd74951c716cdd0f4cc8abefe156da4e6ff219)。更多信息请参考 [#5](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/issues/5)。
 
 ## 下载 & 更新记录
 
