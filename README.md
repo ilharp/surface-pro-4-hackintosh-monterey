@@ -41,7 +41,7 @@ USB 无线网卡|COMFAST CF-811AC（自购）
 -|-
 [macOS](https://www.apple.com.cn/macos)|[Apple](https://www.apple.com.cn)
 [OpenCore](https://github.com/acidanthera/OpenCorePkg)|[acidanthera](https://github.com/acidanthera)
-ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
+DSDT|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 键盘 & 触摸板等|[VoodooI2C (基础)](https://github.com/VoodooI2C)，[Xiashangning/BigSurface](https://github.com/Xiashangning/BigSurface)
 音频|[AppleALC](https://github.com/acidanthera/AppleALC) + 布局 3
 无线网卡驱动|[chris1111/Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
@@ -59,6 +59,10 @@ ACPI|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 1. 开始愉快的水果之旅
 
 ## 注意事项
+
+### Wi-Fi
+
+如果你和我一样买了 `COMFAST CF-811AC` 的 USB 无线网卡或其他支持的网卡的话，Wi-Fi 是需要单独下载 [这个](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter/releases) App 进行使用的。下载安装之后重启就可以在任务栏上找到图标了。
 
 ### 触摸板
 
