@@ -1,6 +1,6 @@
 # surface-pro-4-hackintosh-monterey
 
-Surface Pro 4 + macOS 12 Monterey，无触摸屏/WiFi/蓝牙/摄像头，其他功能完整
+Surface Pro 4 + macOS 12 Monterey，无触摸屏/蓝牙/摄像头（Wi-Fi 使用 USB），其他功能完整
 
 ## ⭐ 现已支持 Monterey ⭐
 
@@ -44,7 +44,7 @@ USB 无线网卡|COMFAST CF-811AC（自购）
 DSDT|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro-4-hackintosh)
 键盘 & 触摸板等|[VoodooI2C (基础)](https://github.com/VoodooI2C)，[Xiashangning/BigSurface](https://github.com/Xiashangning/BigSurface)
 音频|[AppleALC](https://github.com/acidanthera/AppleALC) + 布局 3
-无线网卡驱动|[chris1111/Wireless-USB-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
+无线网卡驱动|[chris1111/Wireless-USB-OC-Big-Sur-Adapter](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)
 
 ## 食用
 
