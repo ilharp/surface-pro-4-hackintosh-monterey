@@ -70,11 +70,21 @@ DSDT|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 ### 更新
 
-默认配置禁用了所有更新（使用 Apple 提供的更新极有可能损坏系统）。若要恢复更新，你需要重新启用 SIP。参考：[Disabling SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#disabling-sip)
+默认配置禁用了 SIP。使用 Apple 提供的更新极有可能损坏系统。若要恢复更新，你可能需要重新启用 SIP。参考：[Disabling SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#disabling-sip)
 
 **注意：非常不推荐通过系统更新直接升级系统。推荐手动下载系统安装程序进行安装升级。**
 
-禁用更新同时会禁用 App Store 内的应用更新。请自行权衡利弊。
+禁用更新可能会同时影响 App Store 内的应用更新。请自行权衡利弊。
+
+**更新：有小伙伴反映在默认配置禁用了 SIP 的情况下仍然收到了 macOS 12.4 的更新。非常不推荐直接安装。如有需要，请手动下载安装程序。**
+
+### 外接显示屏变紫色
+
+下载 [patch-edid.rb](https://gist.github.com/adaugherity/7435890) 文件并运行，然后按照 [Writing to the macOS system partition](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#writing-to-the-macos-system-partition) 的步骤将系统分区映射为可写分区，最后将生成的 `DisplayVendorID` 文件夹复制到 `/System/Library/Displays/Contents/Resources/Overrides` 目录下覆盖原文件。记得备份原来的文件。
+
+**注意：修改系统分区文件可能会破坏系统完整性（不会损坏系统），从而无法收到 Apple 更新。修改文件时记得备份。**
+
+另注意，目测每接一个新的显示屏都需要跑一遍上述步骤。
 
 ### DSDT
 
