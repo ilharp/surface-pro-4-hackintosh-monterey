@@ -2,17 +2,23 @@
 
 Surface Pro 4 + macOS 12 Monterey，无触摸屏/蓝牙/摄像头（Wi-Fi 使用 USB），其他功能完整
 
+## ⚠ WWDC22 和 Ventura ⚠
+
+看起来 Apple 对 Skylake 的支持已经走到了终点。不出意外的话 Monterey 将会成为本项目支持的最后一代 macOS。
+
+如果你有任何想法，可以在 [Issue](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/issues) 区交流。
+
 ## ⭐ 现已支持 Monterey ⭐
 
 经过数天的尝试，本项目现已支持直升 macOS 12 Monterey。
 
-测试的过程非常复杂，也修改了非常多的参数，因此不在此处叙述了，如果有任何问题和想法可以开 issue 交流。
+测试的过程非常复杂，也修改了非常多的参数，因此不在此处叙述了，如果有任何问题和想法可以开 [Issue](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/issues) 交流。
 
 <img width="1000" alt="Monterey" src="https://user-images.githubusercontent.com/20179549/165629179-52eb9fea-d871-4d90-922a-ab8a95ee318d.png">
 
 ## 兼容性
 
-版本历史和更新记录请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-big-sur/releases)。
+版本历史和更新记录请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/releases)。
 
 v3 是最后一个在 Big Sur 上经过测试的版本。后续版本理论上仍支持 Big Sur，但我已无法再进行测试。
 
@@ -96,7 +102,7 @@ DSDT|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 ## 下载 & 更新记录
 
-请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-big-sur/releases)
+请参见 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/releases)
 
 ## LICENSE
 
