@@ -54,7 +54,11 @@ DSDT|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 ## 食用
 
-1. 把 EFI 文件夹粘贴到 U 盘任何一个空分区的根目录里（注意 U 盘文件系统要能够被 Surface UEFI 识别）
+1. 在 [Releases](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/releases) 里下载本项目的最新稳定版（点击 `Source code (zip)` 即可下载）
+
+1. 按照 [Dortania 的官方教程](https://dortania.github.io/OpenCore-Install-Guide/installer-guide) 制作 macOS 启动盘
+
+1. 把 EFI 文件夹粘贴到 U 盘任何一个空分区的根目录里，具体参考 Dortania 的官方教程（注意 U 盘文件系统要能够被 Surface UEFI 识别）
 
 1. Surface 进 UEFI，关掉 Boot Lock、Secure Boot 和 TPM 等，引导顺序将 U 盘置首
 
