@@ -1268,6 +1268,7 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>Path</key>
 				<string>OpenLinuxBoot.efi</string>
 			</dict>
 		</array>
