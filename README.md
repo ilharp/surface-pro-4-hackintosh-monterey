@@ -68,6 +68,8 @@ DSDT|[bigsadan/surface-pro-4-hackintosh](https://github.com/bigsadan/surface-pro
 
 1. 开始愉快的水果之旅
 
+1. 如果你在使用中遇到了问题，记得查看下面的注意事项或在 [这里](https://github.com/ilharp/surface-pro-4-hackintosh-monterey/issues/new) 创建一个新的 issue；如果你顺利地用上了 macOS，别忘了回来给本项目点个 :star: star 哦！
+
 ## 注意事项
 
 ### Wi-Fi
